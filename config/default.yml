@@ -1,0 +1,9 @@
+etheriumProvider: 'https://api.myetherapi.com/eth'
+# etheriumProvider: 'ws://api.myetherapi.com/eth'
+# etheriumProvider: 'ws://172.18.0.3:8545'
+# etheriumProvider: '172.18.0.3:8545'
+database:
+    url: 'http://172.18.0.2:8529'
+    username: ether-service
+    password: example
+    name: ethernet

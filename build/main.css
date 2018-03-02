@@ -1,0 +1,21 @@
+.topbar-dropdown {
+  cursor: pointer; }
+  .topbar-dropdown__menu {
+    display: block;
+    visibility: hidden;
+    max-height: 0;
+    transition: all .3s; }
+  .topbar-dropdown:hover .topbar-dropdown__menu {
+    display: block;
+    visibility: visible;
+    max-height: 300px;
+    transition: all .3s; }
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  background-color: #f5f5f5; }
+
+/*# sourceMappingURL=main.css.map*/

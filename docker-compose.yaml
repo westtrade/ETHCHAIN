@@ -1,0 +1,16 @@
+version: '3.1'
+
+services:
+    database:
+        image: 'arangodb'
+        volumes:
+            - ./data:/var/lib/arangodb3
+        environment:
+            ARANGO_ROOT_PASSWORD: somepassword
+
+    # etherium-node:
+    #     image: 'ethereum/client-go'
+    #     ports:
+    #         - 8545:8545
+    #     command:
+    #         --rpc --rpcaddr "0.0.0.0"
